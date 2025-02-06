@@ -178,7 +178,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-espectro_politico.ipynb
 data/
 shapefiles/
 municipios_ibge.json
