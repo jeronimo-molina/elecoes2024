@@ -124,10 +124,10 @@ partidos_brasil.info()
 
 # File variables
 BR_Municipíos_2023 = 'path/to/BR_Municipíos_2023'  # Define the path to BR_Municipíos_2023
-arquivo_resultado_2024 = os.path.join('./.data/votacao_candidato_munzona_2024.zip')
-arquivo_resultado_2020 = os.path.join('./.data/votacao_candidato_munzona_2020.zip')
-arquivo_resultado_2016 = os.path.join('./.data/votacao_candidato_munzona_2016.zip')
-arquivo_BR_mun_shapefile = os.path.join("shapefiles", "BR_Municipios_2023.shp")
+arquivo_resultado_2024 = os.path.join('.data/votacao_candidato_munzona_2024.zip')
+arquivo_resultado_2020 = os.path.join('.data/votacao_candidato_munzona_2020.zip')
+arquivo_resultado_2016 = os.path.join('.data/votacao_candidato_munzona_2016.zip')
+arquivo_BR_mun_shapefile = os.path.join(".shapefiles", "BR_Municipios_2023.shp")
 
 print(os.path.exists(arquivo_BR_mun_shapefile)) # Check if the shapefile exists
 
